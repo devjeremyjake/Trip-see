@@ -260,6 +260,8 @@ a:hover {
     line-height: 1.5;
     font-size: 1rem;
     font-weight: 400;
+    color: var(--main-color);
+
 }
 
 .about__bottom {
@@ -267,6 +269,8 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     height: 15rem;
+    background: url(/img/map.jpg);
+    object-fit: contain;
 }
 
 .about__bottom .stat {
@@ -302,3 +306,40 @@ a:hover {
 .stat-4 {
     align-self: flex-start;
 }
+
+/* Offers section */
+.offers {
+    margin: 0 6rem;
+}
+.offers__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--margin-bottom-2);
+}
+
+.left {
+    color: var(--main-color);
+}
+
+.left > h3 {
+    margin: 0;
+}
+
+.right {
+    margin-top: .5rem;
+}
+
+.item {
+    outline: none;
+    margin: 0;
+}
+
+.item-inner img {
+    margin: 0 auto;
+    max-width: 30%;
+    border-radius: 5px;
+}
+
+
+
